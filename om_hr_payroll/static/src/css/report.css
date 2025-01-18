@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'JameelNooriNastaleeqKasheeda';
+    src: url('/om_hr_payroll/static/src/fonts/jameel-noori-nastaleeq-kasheeda.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.urdu2-font {
+    font-family: 'JameelNooriNastaleeqKasheeda', serif;
+}
