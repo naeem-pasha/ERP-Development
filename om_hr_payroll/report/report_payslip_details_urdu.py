@@ -1,5 +1,10 @@
 # -*- coding:utf-8 -*-
 
+import sys
+import logging
+_logger = logging.getLogger(__name__)
+_logger.info(f"Python executable: {sys.executable}")
+
 from odoo import api, models
 from translatepy import Translator
 from convertdate import islamic
